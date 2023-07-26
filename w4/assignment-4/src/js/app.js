@@ -31,35 +31,27 @@ let luxuryTeaArr = [];
 let blackTeaArr = [];
 
 for (let i = 0; i < products.length; i++) {
-     products[i].categories.forEach(function (element) {
-      if (element === "ch1" && products[i].discontinued === false) {
-        milkChocoArr.push(products[i].description);
-      }
-      else if (element === "ch2" && products[i].discontinued === false) {
-        darkChocoArr.push(products[i].description);
-      }
-      else if (element === "ch3" && products[i].discontinued === false) {
-        luxuryChocoArr.push(products[i].description);
-      }
-      else if (element === "ch4" && products[i].discontinued === false) {
-        flavorChocoArr.push(products[i].description);
-      }
-      else if (element === "ct1" && products[i].discontinued === false) {
-        japaneseTeaArr.push(products[i].description);
-      }
-      else if (element === "ct2" && products[i].discontinued === false) {
-        herbalTeaArr.push(products[i].description);
-      }
-      else if (element === "ct3" && products[i].discontinued === false) {
-        whiteTeaArr.push(products[i].description);
-      }
-      else if (element === "ct4" && products[i].discontinued === false) {
-        luxuryTeaArr.push(products[i].description);
-      }
-      else if (element === "ct5" && products[i].discontinued === false) {
-        blackTeaArr.push(products[i].description);
-      }
-    });
+  products[i].categories.forEach(function (element) {
+    if (element === "ch1" && products[i].discontinued === false) {
+      milkChocoArr.push(products[i].description);
+    } else if (element === "ch2" && products[i].discontinued === false) {
+      darkChocoArr.push(products[i].description);
+    } else if (element === "ch3" && products[i].discontinued === false) {
+      luxuryChocoArr.push(products[i].description);
+    } else if (element === "ch4" && products[i].discontinued === false) {
+      flavorChocoArr.push(products[i].description);
+    } else if (element === "ct1" && products[i].discontinued === false) {
+      japaneseTeaArr.push(products[i].description);
+    } else if (element === "ct2" && products[i].discontinued === false) {
+      herbalTeaArr.push(products[i].description);
+    } else if (element === "ct3" && products[i].discontinued === false) {
+      whiteTeaArr.push(products[i].description);
+    } else if (element === "ct4" && products[i].discontinued === false) {
+      luxuryTeaArr.push(products[i].description);
+    } else if (element === "ct5" && products[i].discontinued === false) {
+      blackTeaArr.push(products[i].description);
+    }
+  });
 }
 
 // Creating the navbar dynamically
@@ -73,67 +65,59 @@ for (let i = 0; i < categories.length; i++) {
 
 // Prints the description of tea product
 function descriptionPrinter(category) {
-    // Whenever the user clicks on an element, the program prints the description of the product to the console
-    let tableRows = document.getElementsByClassName("tbl-row");
-  
-    // Using the length as per the category and printing description by using the parallel array concept
+  // Whenever the user clicks on an element, the program prints the description of the product to the console
+  let tableRows = document.getElementsByClassName("tbl-row");
+
+  // Using the length as per the category and printing description by using the parallel array concept
   if (category === "ch1") {
     for (let i = 0; i < milkChocoArr.length; i++) {
       tableRows[i].addEventListener("click", function () {
         console.log(milkChocoArr[i]);
       });
     }
-  }
-  else if (category === "ch2") {
+  } else if (category === "ch2") {
     for (let i = 0; i < darkChocoArr.length; i++) {
       tableRows[i].addEventListener("click", function () {
         console.log(darkChocoArr[i]);
       });
     }
-  }
-  else if (category === "ch3") {
+  } else if (category === "ch3") {
     for (let i = 0; i < luxuryChocoArr.length; i++) {
       tableRows[i].addEventListener("click", function () {
         console.log(luxuryChocoArr[i]);
       });
     }
-  }
-  else if (category === "ch4") {
+  } else if (category === "ch4") {
     for (let i = 0; i < flavorChocoArr.length; i++) {
       tableRows[i].addEventListener("click", function () {
         console.log(flavorChocoArr[i]);
       });
     }
-  }
-  else if (category === "ct1") {
+  } else if (category === "ct1") {
     for (let i = 0; i < japaneseTeaArr.length; i++) {
       tableRows[i].addEventListener("click", function () {
         console.log(japaneseTeaArr[i]);
       });
     }
-  }
-  else if (category === "ct2") {
+  } else if (category === "ct2") {
     for (let i = 0; i < herbalTeaArr.length; i++) {
       tableRows[i].addEventListener("click", function () {
         console.log(herbalTeaArr[i]);
       });
     }
-  }
-  else if (category === "ct3") {
+  } else if (category === "ct3") {
     for (let i = 0; i < whiteTeaArr.length; i++) {
       tableRows[i].addEventListener("click", function () {
         console.log(whiteTeaArr[i]);
       });
     }
-  }
-  else if (category === "ct4") {
+  } else if (category === "ct4") {
     for (let i = 0; i < luxuryTeaArr.length; i++) {
       tableRows[i].addEventListener("click", function () {
         console.log(luxuryTeaArr[i]);
       });
     }
-  }
-  else if (category === "ct5") {
+  } else if (category === "ct5") {
     for (let i = 0; i < blackTeaArr.length; i++) {
       tableRows[i].addEventListener("click", function () {
         console.log(blackTeaArr[i]);
@@ -144,67 +128,67 @@ function descriptionPrinter(category) {
 
 // Creates all the cells for a particular category
 function createCells(category) {
-    // Fetching the tbody element
-    var tbodyRef = document.getElementById("categoryProducts");
-    var newRow, newCell, newText;
-  
-    // Iterating through the products and creating rows
-    for (let i = 0; i < products.length; i++) {
-      // creates a table row
-      document.createElement("tr");
-  
-      // Iterating over array
-      products[i].categories.forEach(function (element) {
-        if (element === category && products[i].discontinued === false) {
-          newRow = tbodyRef.insertRow();
-          newRow.className = "tbl-row";
-  
-          // Insert a cell at the end of the row
-          newCell = newRow.insertCell();
-          // Append a text node to the cell
-          newText = document.createTextNode(products[i].title);
-          newCell.appendChild(newText);
-  
-          // Insert a cell at the end of the row
-          newCell = newRow.insertCell();
-          newCell.id = i;
-          // Append a text node to the cell
-          newText = document.createTextNode(products[i].description);
-          newCell.appendChild(newText);
-  
-          // Insert a cell at the end of the row
-          newCell = newRow.insertCell();
-          // Append a text node to the cell
-          newText = document.createTextNode(
-            (products[i].price / 100).toLocaleString("en-CA", { currency: "CAD", style: "currency" })
-          ); // Converting to Canadian Currency
-          newCell.appendChild(newText);
-        }
-      });
-    }
-  }
+  // Fetching the tbody element
+  var tbodyRef = document.getElementById("categoryProducts");
+  var newRow, newCell, newText;
 
-  // Display milk chocolate by default
+  // Iterating through the products and creating rows
+  for (let i = 0; i < products.length; i++) {
+    // creates a table row
+    document.createElement("tr");
+
+    // Iterating over array
+    products[i].categories.forEach(function (element) {
+      if (element === category && products[i].discontinued === false) {
+        newRow = tbodyRef.insertRow();
+        newRow.className = "tbl-row";
+
+        // Insert a cell at the end of the row
+        newCell = newRow.insertCell();
+        // Append a text node to the cell
+        newText = document.createTextNode(products[i].title);
+        newCell.appendChild(newText);
+
+        // Insert a cell at the end of the row
+        newCell = newRow.insertCell();
+        newCell.id = i;
+        // Append a text node to the cell
+        newText = document.createTextNode(products[i].description);
+        newCell.appendChild(newText);
+
+        // Insert a cell at the end of the row
+        newCell = newRow.insertCell();
+        // Append a text node to the cell
+        newText = document.createTextNode(
+          (products[i].price / 100).toLocaleString("en-CA", { currency: "CAD", style: "currency" })
+        ); // Converting to Canadian Currency
+        newCell.appendChild(newText);
+      }
+    });
+  }
+}
+
+// Display milk chocolate by default
 document.getElementById("categoryProducts").innerHTML = "";
 document.getElementById("selected-category").textContent = "Milk Chocolate";
 createCells("ch1");
 
 // Function that shows a product list based on category and update the heading
 function showProductList(category) {
-    // Clearing all the elements so that they don't stay
-    document.getElementById("categoryProducts").innerHTML = "";
-  
-    // Changing the human readable names to IDs
-    for (let k = 0; k < categories.length; k++) {
-      if (categories[k].name === category) {
-        category = categories[k].id;
-      }
+  // Clearing all the elements so that they don't stay
+  document.getElementById("categoryProducts").innerHTML = "";
+
+  // Changing the human readable names to IDs
+  for (let k = 0; k < categories.length; k++) {
+    if (categories[k].name === category) {
+      category = categories[k].id;
     }
-  
-    // Creating cells for categories
-    createCells(category);
-    descriptionPrinter(category);
   }
+
+  // Creating cells for categories
+  createCells(category);
+  descriptionPrinter(category);
+}
 
 // Change the heading and show product list
 let menuArr = document.querySelector("#menu").querySelectorAll("button");

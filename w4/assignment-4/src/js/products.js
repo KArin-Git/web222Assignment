@@ -20,7 +20,7 @@ window.products = [
     description: "Smooth and creamy milk chocolate bar for indulgence.",
     price: 799, // $7.99 per 100g
     discontinued: true,
-    categories: ["ch1"], // Belongs to category "Milk Chocolate"
+    categories: ["ch1"] // Belongs to category "Milk Chocolate"
   },
 
   {
@@ -29,7 +29,7 @@ window.products = [
     description: "Delicate milk chocolate truffles with a velvety center.",
     price: 1099, // $10.99 per 100g
     discontinued: false,
-    categories: ["ch1"], // Belongs to category "Milk Chocolate"
+    categories: ["ch1"] // Belongs to category "Milk Chocolate"
   },
 
   {
@@ -38,7 +38,7 @@ window.products = [
     description: "Decadent milk chocolate pralines filled with hazelnut cream.",
     price: 1299, // $12.99 per 100g
     discontinued: false,
-    categories: ["ch1"], // Belongs to category "Milk Chocolate"
+    categories: ["ch1"] // Belongs to category "Milk Chocolate"
   },
 
   {
@@ -47,7 +47,7 @@ window.products = [
     description: "Irresistible milk chocolate with a delightful toffee crunch.",
     price: 899, // $8.99 per 100g
     discontinued: false,
-    categories: ["ch1"], // Belongs to category "Milk Chocolate"
+    categories: ["ch1"] // Belongs to category "Milk Chocolate"
   },
 
   {
@@ -56,16 +56,16 @@ window.products = [
     description: "Roasted almonds enrobed in luscious milk chocolate.",
     price: 999, // $9.99 per 100g
     discontinued: false,
-    categories: ["ch1"], // Belongs to category "Milk Chocolate"
+    categories: ["ch1"] // Belongs to category "Milk Chocolate"
   },
-  
+
   {
     id: "choco6",
     title: "Milk Chocolate Caramel Swirls",
     description: "Smooth milk chocolate with luscious caramel swirls.",
     price: 999, // $9.99 per 100g
     discontinued: false,
-    categories: ["ch1"], // Belongs to category "Milk Chocolate"
+    categories: ["ch1"] // Belongs to category "Milk Chocolate"
   },
 
   {
@@ -74,7 +74,7 @@ window.products = [
     description: "Rich and intense dark chocolate bar with bold cocoa flavors.",
     price: 899, // $8.99 per 100g
     discontinued: false,
-    categories: ["ch2"], // Belongs to category "Dark Chocolate"
+    categories: ["ch2"] // Belongs to category "Dark Chocolate"
   },
 
   {
@@ -83,7 +83,7 @@ window.products = [
     description: "Elegant marzipan pralines coated in luxurious golden chocolate.",
     price: 1499, // $14.99 per 100g
     discontinued: false,
-    categories: ["ch3"], // Belongs to category "Luxury Chocolate"
+    categories: ["ch3"] // Belongs to category "Luxury Chocolate"
   },
 
   {
@@ -92,7 +92,7 @@ window.products = [
     description: "Dark chocolate infused with zesty orange essence.",
     price: 1099, // $10.99 per 100g
     discontinued: false,
-    categories: ["ch4"], // Belongs to category "Flavor Chocolate"
+    categories: ["ch4"] // Belongs to category "Flavor Chocolate"
   },
 
   {
@@ -101,7 +101,7 @@ window.products = [
     description: "Exotic dark chocolate discs with a hint of chili spice.",
     price: 1199, // $11.99 per 100g
     discontinued: true,
-    categories: ["ch4"], // Belongs to category "Flavor Chocolate"
+    categories: ["ch4"] // Belongs to category "Flavor Chocolate"
   },
 
   {
@@ -110,7 +110,7 @@ window.products = [
     description: "Delightful milk chocolate with crunchy almond pieces.",
     price: 799, // $7.99 per 100g
     discontinued: false,
-    categories: ["ch1"], // Belongs to category "Milk Chocolate"
+    categories: ["ch1"] // Belongs to category "Milk Chocolate"
   },
 
   {
@@ -119,7 +119,7 @@ window.products = [
     description: "Melt-in-your-mouth milk chocolate medallions with a refreshing mint twist.",
     price: 899, // $8.99 per 100g
     discontinued: true,
-    categories: ["ch1", "ch4"], // Belongs to categories "Milk Chocolate" and "Flavor Chocolate"
+    categories: ["ch1", "ch4"] // Belongs to categories "Milk Chocolate" and "Flavor Chocolate"
   },
 
   {
@@ -128,7 +128,7 @@ window.products = [
     description: "Silky smooth dark chocolate ganache for pure indulgence.",
     price: 1199, // $11.99 per 100g
     discontinued: false,
-    categories: ["ch2"], // Belongs to category "Dark Chocolate"
+    categories: ["ch2"] // Belongs to category "Dark Chocolate"
   },
 
   {
@@ -137,7 +137,7 @@ window.products = [
     description: "Exquisite chocolate bonbons infused with rare flavor combinations.",
     price: 1599, // $15.99 per 100g
     discontinued: false,
-    categories: ["ch3", "ch4"], // Belongs to categories "Luxury Chocolate" and "Flavor Chocolate"
+    categories: ["ch3", "ch4"] // Belongs to categories "Luxury Chocolate" and "Flavor Chocolate"
   },
 
   {
@@ -146,7 +146,7 @@ window.products = [
     description: "Dark chocolate with a burst of tropical passion fruit essence.",
     price: 1099, // $10.99 per 100g
     discontinued: true,
-    categories: ["ch4"], // Belongs to category "Flavor Chocolate"
+    categories: ["ch4"] // Belongs to category "Flavor Chocolate"
   },
 
   {
@@ -155,7 +155,7 @@ window.products = [
     description: "Delicious milk chocolate spread enriched with hazelnuts.",
     price: 799, // $7.99 per 100g
     discontinued: false,
-    categories: ["ch1"], // Belongs to category "Milk Chocolate"
+    categories: ["ch1"] // Belongs to category "Milk Chocolate"
   },
 
   {
@@ -164,7 +164,7 @@ window.products = [
     description: "Artfully marbled milk and dark chocolate bars with a mesmerizing swirl.",
     price: 899, // $8.99 per 100g
     discontinued: false,
-    categories: ["ch1", "ch2"], // Belongs to categories "Milk Chocolate" and "Dark Chocolate"
+    categories: ["ch1", "ch2"] // Belongs to categories "Milk Chocolate" and "Dark Chocolate"
   },
 
   {
@@ -173,7 +173,7 @@ window.products = [
     description: "Gourmet chocolate squares with golden raspberry filling.",
     price: 1299, // $12.99 per 100g
     discontinued: true,
-    categories: ["ch3"], // Belongs to category "Luxury Chocolate"
+    categories: ["ch3"] // Belongs to category "Luxury Chocolate"
   },
 
   {
@@ -182,7 +182,7 @@ window.products = [
     description: "Dark chocolate infused with sweet cherry and a touch of chili spice.",
     price: 1099, // $10.99 per 100g
     discontinued: false,
-    categories: ["ch2", "ch4"], // Belongs to categories "Dark Chocolate" and "Flavor Chocolate"
+    categories: ["ch2", "ch4"] // Belongs to categories "Dark Chocolate" and "Flavor Chocolate"
   },
 
   {
@@ -191,7 +191,7 @@ window.products = [
     description: "Decadent clusters of milk chocolate, coconut, and buttery toffee bits.",
     price: 1299, // $12.99 per 100g
     discontinued: false,
-    categories: ["ch4"], // Belongs to category "Flavor Chocolate"
+    categories: ["ch4"] // Belongs to category "Flavor Chocolate"
   },
 
   {
@@ -200,7 +200,7 @@ window.products = [
     description: "Decadent dark chocolate truffles infused with exotic spices.",
     price: 1799, // $17.99 per 100g
     discontinued: false,
-    categories: ["ch2", "ch3"], // Belongs to categories "Luxury Chocolate" and "High-Mountain Tea"
+    categories: ["ch2", "ch3"] // Belongs to categories "Luxury Chocolate" and "High-Mountain Tea"
   },
 
   {
@@ -209,7 +209,7 @@ window.products = [
     description: "Handcrafted pralines with a perfect blend of caramel and sea salt.",
     price: 1499, // $14.99 per 100g
     discontinued: false,
-    categories: ["ch4"], // Belongs to category "Luxury Chocolate"
+    categories: ["ch4"] // Belongs to category "Luxury Chocolate"
   },
 
   {
@@ -218,7 +218,7 @@ window.products = [
     description: "Rare and alluring pink ruby chocolate gems with a berry-like flavor.",
     price: 2199, // $21.99 per 100g
     discontinued: false,
-    categories: ["ch3", "ch4"], // Belongs to categories "Luxury Chocolate" and "Fruit-Infused Chocolate"
+    categories: ["ch3", "ch4"] // Belongs to categories "Luxury Chocolate" and "Fruit-Infused Chocolate"
   },
 
   {
@@ -227,9 +227,9 @@ window.products = [
     description: "Exquisite nougat bars infused with golden honey and roasted almonds.",
     price: 1599, // $15.99 per 100g
     discontinued: false,
-    categories: ["ch3", "ch4"], // Belongs to categories "Luxury Chocolate" and "Nutty Delights"
+    categories: ["ch3", "ch4"] // Belongs to categories "Luxury Chocolate" and "Nutty Delights"
   },
-    
+
   // Product data for Exotic Tea Emporium
   {
     id: "tea1",
@@ -273,7 +273,7 @@ window.products = [
     description: "Elegant and floral oolong tea with a smooth finish.",
     price: 1899, // $18.99 per 50g
     discontinued: false,
-    categories: ["ct3", "ct4"], // Belongs to categories "White Tea" and "Luxury Tea"
+    categories: ["ct3", "ct4"] // Belongs to categories "White Tea" and "Luxury Tea"
   },
 
   {
@@ -282,7 +282,7 @@ window.products = [
     description: "Aged and earthy pu-erh tea with rich complexity.",
     price: 2499, // $24.99 per 100g
     discontinued: false,
-    categories: ["ct4"], // Belongs to category "Luxury Tea"
+    categories: ["ct4"] // Belongs to category "Luxury Tea"
   },
 
   {
@@ -291,7 +291,7 @@ window.products = [
     description: "Highest grade ceremonial matcha powder for traditional preparation.",
     price: 2999, // $29.99 per 30g
     discontinued: false,
-    categories: ["ct1", "ct2"], // Belongs to categories "Japanese Tea" and "Herbal Tea"
+    categories: ["ct1", "ct2"] // Belongs to categories "Japanese Tea" and "Herbal Tea"
   },
 
   {
@@ -300,9 +300,9 @@ window.products = [
     description: "Naturally sweet and caffeine-free herbal tea with vanilla notes.",
     price: 1299, // $12.99 per 50g
     discontinued: false,
-    categories: ["ct2"], // Belongs to category "Herbal Tea"
-  },
-  
+    categories: ["ct2"] // Belongs to category "Herbal Tea"
+  }
+
   /*
     {
       id: "P1",
