@@ -1,0 +1,255 @@
+/* Custom CSS for a cute and colorful theme */
+
+/* Body */
+body {
+  font-family: "Indie Flower", cursive;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #333;
+  background-color: #ffe3f0; /* Updated background color */
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 48px;
+  color: #ff7ea8;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header p {
+  font-size: 20px;
+  color: #666;
+}
+
+/* Navigation Menu */
+#menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#menu button {
+  font-family: "Indie Flower", cursive;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #ff7ea8;
+  color: #f9f9f9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#menu button:hover {
+  background-color: #ffcf8a;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #ff7ea8;
+  color: #f9f9f9;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+/* Product Description */
+.product-description {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Product Price */
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff7ea8;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ff7ea8;
+  color: #f9f9f9;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Custom CSS for a cute and colorful theme */
+
+/* Body */
+body {
+  font-family: "Indie Flower", cursive;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #333;
+  background-color: #ffe3f0; /* Updated background color */
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 48px;
+  color: #ff7ea8;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header p {
+  font-size: 20px;
+  color: #666;
+}
+
+/* Navigation Menu */
+#menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#menu button {
+  font-family: "Indie Flower", cursive;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #ff7ea8;
+  color: #f9f9f9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#menu button:hover {
+  background-color: #ffcf8a;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ff7ea8;
+}
+
+th {
+  background-color: #ff7ea8;
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fbf3f9; /* New background color for even rows */
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffead9; /* New background color for odd rows */
+}
+
+/* Product Description */
+.product-description {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Product Price */
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff7ea8;
+}
+
+/* Main styles for the product container */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Main styles for the product cards */
+.card {
+  flex: 0 0 300px; /* Each card will have a fixed width of 300px */
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+}
+
+/* product card */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card-description {
+  margin-top: 5px;
+}
+
+.card-price {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+
+/* Footer */
+footer {
+  background-color: #f85858;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff; /* Set the text color to white */
+}
