@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1000px) {
+
+    article {
+        width: 100vw;
+    }
+
+    header #web_nav {
+        display: none;
+    }
+
+    header #mobile_nav {
+        display: flex;
+    }
+    
+}
